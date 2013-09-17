@@ -56,8 +56,13 @@ public class GUI extends JFrame implements KeyListener {
 		int viewHeight = view.getHeight();
 		buffer = new BufferedImage(viewWidth, viewHeight, BufferedImage.TYPE_INT_RGB);
 		Graphics2D g2D = buffer.createGraphics();
+		
 		g2D.setColor(Color.BLACK);
 		g2D.fillRect(0, 0, viewWidth, viewHeight);
+		
+		g2D.setColor(Color.WHITE);
+		g2D.drawString("S to save position,  L to load", 10, 10);
+		
 		room.draw(g2D);
 		view.draw(g2D);
 		g2D.dispose();

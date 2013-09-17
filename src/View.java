@@ -11,7 +11,5 @@ public class View extends JComponent {
 	}
 
 	public void draw(Graphics2D g2D) {
-		g2D.setColor(Color.WHITE);
-		g2D.drawString("S to save position,  L to load", 10, 10);
 	}
 }
