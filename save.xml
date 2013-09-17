@@ -1,0 +1,8 @@
+<GUI>
+   <room tiles="....., ....., ....., ....., ....." ROOM_WIDTH="5" ROOM_HEIGHT="5">
+      <roomName>test-room</roomName>
+      <player class="Player" x="1" y="1" alive="true" hp="10">
+         <name>Bob</name>
+      </player>
+   </room>
+</GUI>
