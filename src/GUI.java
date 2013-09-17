@@ -33,6 +33,7 @@ public class GUI extends JFrame implements KeyListener {
 	}
 
 	private void setupWindow() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		addKeyListener(this);
 		setSize(800, 600);
 		setLayout(new BorderLayout());
